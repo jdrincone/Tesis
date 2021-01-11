@@ -1,0 +1,251 @@
+%paquetes
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,mexico]{babel}
+\usepackage{multirow} 
+\usepackage{amsmath,bm}
+\usepackage{graphicx,amssymb,amsmath,amsthm,amsfonts,mathtools,makeidx,bm,enumitem,float,relsize,empheq,lscape,emptypage,caption,bm,sectsty,xparse,cancel,mathrsfs,pifont}
+\renewcommand\CancelColor{\color{red}} %cancelto color de la flecha
+\usepackage[framemethod=default]{mdframed}
+\usepackage[most]{tcolorbox}
+\usepackage{parskip}
+\captionsetup{margin=10pt,font=small,labelfont=bf}
+\numberwithin{equation}{section}
+\usepackage[lmargin=3.5cm,rmargin=2.5cm,tmargin=2.5cm,bmargin=2.5cm]{geometry}
+\usepackage[square,colon]{natbib}
+\bibliographystyle{plainnat}
+\usepackage{fancyhdr}
+    \pagestyle{fancy}                       					% Sets fancy header and footer
+    \fancyfoot{}                            					% Delete current footer settings
+    \renewcommand{\chaptermark}[1]{         					% Lower Case Chapter marker style
+      \markboth{\chaptername\ \thechapter.\ #1}{}} 				%
+    \renewcommand{\sectionmark}[1]{        						% Lower case Section marker style
+      \markright{\thesection.\ #1}}        						%
+    \fancyhead[LE,RO]{\textcolor{astral}{\bfseries\thepage}}    % Page number (boldface) in left on even
+    \fancyhead[RE]{\textcolor{black}{\bfseries\leftmark}}      % Chapter in the right on even pages
+    \fancyhead[LO]{\textcolor{black}{\bfseries\rightmark}}     % Section in the left on odd pages
+    \renewcommand{\headrulewidth}{0.3pt}    					% Width of head rule
+\subsubsectionfont{\color{cinves}}
+
+%\usepackage{showkeys}%\usepackage{showlabels}
+\usepackage{mathpazo}
+\linespread{1.05}
+
+\graphicspath{{Graphs1/}{Graphs2/}{Graphs3/}{Graphs4/}{Graphs5/}{Graphs6/}{Graphs7/}{Graphs8/}{Graphs9/}}
+\hyphenation{Hei-sen-berg}
+
+%Comandos para escritura rapida
+\providecommand{\norm}[1]{\lVert#1\rVert}
+\providecommand{\braket}[2]{\langle #1 | #2 \rangle}
+\providecommand{\braketlr}[2]{\left\langle #1 \right|\left. #2 \right\rangle}
+\providecommand{\ketbra}[2]{| #1 \rangle\langle #2 |}
+\providecommand{\ketbralr}[2]{\left| #1 \right>\left< #2 \right|}
+\providecommand{\ket}[1]{\lvert #1 \rangle}
+\providecommand{\ketlr}[1]{\left| #1 \right>}
+\providecommand{\bra}[1]{\langle #1 \lvert}
+\providecommand{\conm}[2]{\left[ #1 , #2 \right]}
+\providecommand{\avg}[1]{\left< #1 \right>}
+\providecommand{\ti}[1]{\textit{#1}}
+\providecommand{\tb}[1]{\textbf{#1}}
+\providecommand{\tc}[1]{\textsc{#1}}
+\providecommand{\mb}[1]{\mathbf{#1}}
+\newcommand{\dd}{\text{d}}
+%\newcommand{\mb}[1]{\mathbf{#1}}
+\newcommand{\fa}{\forall\hspace{3pt}}
+\newcommand{\intinf}{\int_{-\infty}^{\infty}}
+
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\sD}{\mathscr{D}}
+\newcommand{\so}{\mathfrak{so}}
+\newcommand{\su}{\mathfrak{su}}
+\def\cA{\mathcal{A}}
+\def\cD{\mathcal{D}}
+\def\cL{\mathcal{L}}
+\def\cE{\mathcal{E}}
+\def\cH{\mathcal{H}}
+\def\cI{\mathcal{I}}
+\def\cN{\mathcal{N}}
+\def\cP{\mathcal{P}}
+\def\cS{\mathcal{S}}
+\def\cO{\mathcal{O}}
+\def\cU{\mathcal{U}}
+\def\al{\alpha}
+\def\be{\beta}
+\def\ga{\gamma}
+\def\de{\delta}
+\def\ep{\epsilon}
+\def\ve{\varepsilon}
+\def\ze{\zeta}
+\def\et{\eta}
+\def\th{\theta}
+\def\vt{\vartheta}
+\def\io{\iota}
+\def\ka{\kappa}
+\def\la{\lambda}
+\def\vpi{\varpi}
+\def\rh{\rho}
+\def\vr{\varrho}
+\def\si{\sigma}
+\def\vs{\varsigma}
+\def\ta{\tau}
+\def\up{\upsilon}
+\def\ph{\phi}
+\def\vp{\varphi}
+\def\ch{\chi}
+\def\ps{\psi}
+\def\om{\omega}
+\def\Ga{\Gamma}
+\def\De{\Delta}
+\def\Th{\Theta}
+\def\La{\Lambda}
+\def\Si{\Sigma}
+\def\Up{\Upsilon}
+\def\Ph{\Phi}
+\def\Ps{\Psi}
+\def\Om{\Omega}
+
+\newcommand{\cuno}{\text{\ding{192}}}
+\newcommand{\cdos}{\text{\ding{193}}}
+\newcommand{\ctre}{\text{\ding{194}}}
+\newcommand{\ccua}{\text{\ding{195}}}
+\newcommand{\ccin}{\text{\ding{196}}}
+
+\def\pt#1{\phantom{#1}}
+\def\prt{\partial}
+\def\half{\frac{1}{2}}
+\def\halfs{\frac{1}{\sqrt{2}}}
+\def\lsim{\mathrel{\rlap{\lower4pt\hbox{\hskip1pt$\sim$}}
+		\raise1pt\hbox{$<$}}}
+\def\gsim{\mathrel{\rlap{\lower4pt\hbox{\hskip1pt$\sim$}}
+		\raise1pt\hbox{$>$}}}
+\def\Re{\hbox{Re}\,}
+\def\Im{\hbox{Im}\,}
+\def\Arg{\hbox{Arg}\,}
+
+\definecolor{astral}{RGB}{0,153,153}
+\definecolor{azulclaro}{RGB}{153,153,255}
+\definecolor{cinves}{RGB}{128,153,229}
+\colorlet{guinda}{black}
+\chapterfont{\color{black}}
+\sectionfont{\color{black}}
+\subsectionfont{\color{black}}
+
+\newcommand{\art}{\noindent\fcolorbox{astral}{white}{\textcolor{black}{\textbf{Artículo}}}\hspace{1mm}}
+\newcommand{\vid}{\noindent\fcolorbox{black}{white}{\textcolor{guinda}{\textbf{Video}}}\hspace{1mm}}
+\newcommand{\lib}{\noindent\fcolorbox{guinda}{white}{\textcolor{guinda}{\textbf{Libro}}}\hspace{1mm}}
+\providecommand{\caja}[1]{\noindent\fcolorbox{guinda}{white}{\textcolor{guinda}{\textbf{#1}}}\hspace{0mm}}
+
+\renewcommand{\labelitemi}{\textbullet}% bullet
+\renewcommand{\labelitemii}{\textendash}% dash
+\renewcommand{\labelitemiii}{\textperiodcentered}% dash
+\setlist[itemize]{noitemsep}
+\setlist[enumerate]{noitemsep}
+
+%Inicia para vinculos
+\usepackage[pdftex, plainpages = false, pdfpagelabels, 
+                 pdfpagelayout = SinglePage,
+                 bookmarks,
+                 bookmarksopen = true,
+                 bookmarksnumbered = true,
+                 breaklinks = true,
+                 linktocpage,
+                 colorlinks = true,
+                 linkcolor = blue,
+                 urlcolor  = blue,
+                 citecolor = red,
+                 anchorcolor = green,
+                 hyperindex = true,
+                 hyperfigures
+                 ]{hyperref} 
+\pdfcompresslevel=9
+\pdfstringdefDisableCommands{%
+	\renewcommand*{\bm}[1]{#1}%
+	% any other necessary redefinitions 
+}
+\hypersetup{
+	%    bookmarks=true,         % show bookmarks bar?
+	unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+	pdffitwindow=false,     % window fit to page when opened
+	pdfstartview={FitH},    % fits the width of the page to the window
+	pdftitle={Inestabilidades en sistemas ac\'usticos y \'opticos},    % title
+	pdfauthor={Juan David Rinc\'on},     % author
+	pdfsubject={Radiaci\'on de Hawking an\'aloga},   % subject of the document
+	pdfcreator={Juan David Rinc\'on},   % creator of the document
+	pdfproducer={Juan David Rinc\'on}, % producer of the document
+	pdfkeywords={tesis, radiaci\'on de Hawking,Becs, fibras \'opticas, español, spanish, David, Bermudez}, % list of keywords
+	pdfnewwindow=true,      % links in new window
+	colorlinks=true,       % false: boxed links; true: colored links
+	linkcolor=cinves,          % color of internal links
+	citecolor=astral,        % color of links to bibliography
+	filecolor=astral,      % color of file links
+	urlcolor=blue           % color of external links
+}
+%Termina para vinculos
+
+% Inicia formato de inicio de cap\'itulo
+\makeatletter
+\def\thickhrulefill{\leavevmode \leaders \hrule height 1ex \hfill \kern \z@}
+\def\@makechapterhead#1{%
+  \vspace*{10\p@}%
+  {\parindent \z@ \raggedleft \reset@font
+            \scshape \textcolor{guinda}{\@chapapp{} \thechapter}
+        \par\nobreak
+        \interlinepenalty\@M
+    \Huge \bfseries \textcolor{black}{#1}\par\nobreak
+    %\vspace*{1\p@}%
+    \hrulefill
+    \par\nobreak
+    \vskip 100\p@
+  }}
+\def\@makeschapterhead#1{%
+  \vspace*{10\p@}%
+  {\parindent \z@ \raggedleft \reset@font
+            \scshape \textcolor{guinda}{\vphantom{\@chapapp{} \thechapter}}
+        \par\nobreak
+        \interlinepenalty\@M
+    \Huge \bfseries \textcolor{black}{#1}\par\nobreak
+    %\vspace*{1\p@}%
+    \hrulefill
+    \par\nobreak
+    \vskip 100\p@
+  }}
+% Termina formato de inicio de cap\'itulo
+
+%Inicia formato pregunta
+\newcounter{preg1}
+\newcounter{preg2}
+\newcounter{preg3}
+\newcounter{preg4}
+\newcounter{preg5}
+\newcounter{preg6}
+\newcounter{preg7}
+\newcounter{preg8}
+\newcounter{preg9}
+\newcounter{preg10}
+
+\newenvironment{pregunta}[1]
+{\begin{enumerate}[resume=#1,noitemsep,label={\thechapter.\arabic*.}]\itshape}
+{\end{enumerate}}
+
+\tcolorboxenvironment{pregunta}{
+	empty, before skip=3mm,after skip=3mm,
+	coltitle=guinda,fonttitle=\bfseries,
+	title={\hspace{0mm}Preguntas:},	% Attaching a box requires an overlay
+	attach boxed title to top left,% Ensures proper line breaking in longer titles
+	minipage boxed title,% (boxed title style requires an overlay)
+	boxed title style={empty,size=minimal,toprule=0pt,top=4pt,left=3mm,overlay={}},
+	coltitle=guinda,fonttitle=\bfseries,
+	before=\par\medskip\noindent,parbox=false,boxsep=0mm,left=0mm,right=0mm,top=0mm,breakable,pad at break=0mm,
+	before upper=\csname @totalleftmargin\endcsname0pt, % Use instead of parbox=true. This ensures parskip is inherited by box.
+	% Handles box when it exists on one page only
+	overlay unbroken={\draw[guinda,line width=1pt] ([xshift=-0pt]title.north west) -- ([xshift=-0pt]frame.south west); },
+	% Handles multipage box: first, middle and last pages
+	overlay first={\draw[guinda,line width=1pt] ([xshift=-0pt]title.north west) -- ([xshift=-0pt]frame.south west); },
+	overlay middle={\draw[guinda,line width=1pt] ([xshift=-0pt]frame.north west) -- ([xshift=-0pt]frame.south west); },
+	overlay last={\draw[guinda,line width=1pt] ([xshift=-0pt]frame.north west) -- ([xshift=-0pt]frame.south west); },
+}
+%Termina formato pregunta

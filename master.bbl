@@ -1,0 +1,279 @@
+\begin{thebibliography}{46}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Agrawal(2013)]{Agrawal2013}
+Govind~P Agrawal.
+\newblock \emph{{Nonlinear fiber optics}}.
+\newblock Academic Press, New York, 5th edition, 2013.
+
+\bibitem[Aitchison and Hey(2012)]{aitchison2012gauge}
+Ian~JR Aitchison and Anthony~JG Hey.
+\newblock \emph{Gauge theories in particle physics: A practical introduction,
+  Volume 2: Non-Abelian Gauge theories: QCD and the electroweak theory}.
+\newblock CRC Press, 2012.
+
+\bibitem[Armstrong et~al.(1962)Armstrong, Bloembergen, Ducuing, and
+  Pershan]{armstrong1962interactions}
+JA~Armstrong, N~Bloembergen, J~Ducuing, and PS~Pershan.
+\newblock Interactions between light waves in a nonlinear dielectric.
+\newblock \emph{Physical Review}, 127\penalty0 (6):\penalty0 1918, 1962.
+
+\bibitem[Bambi(2018)]{bambi2018astrophysical}
+Cosimo Bambi.
+\newblock Astrophysical black holes: A compact pedagogical review.
+\newblock \emph{Annalen der Physik}, 530\penalty0 (6):\penalty0 1700430, 2018.
+
+\bibitem[Barcelo et~al.(2011)Barcelo, Liberati, and
+  Visser]{barcelo2011analogue}
+Carlos Barcelo, Stefano Liberati, and Matt Visser.
+\newblock Analogue gravity.
+\newblock \emph{Living Reviews in Relativity}, 14\penalty0 (1):\penalty0 3,
+  2011.
+
+\bibitem[Bermudez(2016)]{Bermudez2016jp}
+David Bermudez.
+\newblock {Propagation of ultra-short higher-order solitons in a photonic
+  crystal fiber}.
+\newblock \emph{Journal of Physics: Conference Series}, 698:\penalty0 012017,
+  2016.
+
+\bibitem[Bermudez and Leonhardt(2018)]{2018Bermudez}
+David Bermudez and Ulf Leonhardt.
+\newblock Resonant {H}awking radiation as an instability.
+\newblock \emph{Classical and Quantum Gravity}, 36\penalty0 (2):\penalty0
+  024001, 2018.
+
+\bibitem[Bombaci(1996)]{bombaci1996maximum}
+Ignazio Bombaci.
+\newblock The maximum mass of a neutron star.
+\newblock \emph{Astronomy and Astrophysics}, 305:\penalty0 871, 1996.
+
+\bibitem[Charru(2011)]{Hydrodynamic}
+François Charru.
+\newblock \emph{Hydrodynamic Instabilities}.
+\newblock Cambridge Texts in Applied Mathematics 37. Cambridge University
+  Press, 2011.
+
+\bibitem[Corley and Jacobson(1996)]{Corley1996}
+Steven Corley and Ted Jacobson.
+\newblock {Hawking spectrum and high frequency dispersion}.
+\newblock \emph{Physical Review D}, 54\penalty0 (2):\penalty0 1568--1586, 1996.
+
+\bibitem[Corley and Jacobson(1999)]{Corley1999}
+Steven Corley and Ted Jacobson.
+\newblock {Black hole lasers}.
+\newblock \emph{Physical Review D}, 59\penalty0 (12):\penalty0 124011, May
+  1999.
+
+\bibitem[Coutant et~al.(2019)Coutant, Aur{\'e}gan, and
+  Pagneux]{coutant2019slow}
+Antonin Coutant, Yves Aur{\'e}gan, and Vincent Pagneux.
+\newblock Slow sound laser in lined flow ducts.
+\newblock \emph{arXiv preprint arXiv:1904.03079}, 2019.
+
+\bibitem[Curtis et~al.(2019)Curtis, Refael, and Galitski]{curtis2019evanescent}
+Jonathan Curtis, Gil Refael, and Victor Galitski.
+\newblock Evanescent modes and step-like acoustic black holes.
+\newblock \emph{Annals of Physics}, 407:\penalty0 148--165, 2019.
+
+\bibitem[de~Nova et~al.(2019)de~Nova, Golubkov, Kolobov, and
+  Steinhauer]{de2019observation}
+Juan Ram{\'o}n~Mu{\~n}oz de~Nova, Katrine Golubkov, Victor~I Kolobov, and Jeff
+  Steinhauer.
+\newblock Observation of thermal hawking radiation and its temperature in an
+  analogue black hole.
+\newblock \emph{Nature}, 569\penalty0 (7758):\penalty0 688, 2019.
+
+\bibitem[DeWitt(1975)]{dewitt1975quantum}
+Bryce~S DeWitt.
+\newblock Quantum field theory in curved spacetime.
+\newblock \emph{Physics Reports}, 19\penalty0 (6):\penalty0 295--357, 1975.
+
+\bibitem[Drori et~al.(2019)Drori, Rosenberg, Bermudez, Silberberg, and
+  Leonhardt]{drori2019observation}
+Jonathan Drori, Yuval Rosenberg, David Bermudez, Yaron Silberberg, and Ulf
+  Leonhardt.
+\newblock Observation of stimulated hawking radiation in an optical analogue.
+\newblock \emph{Physical Review Letters}, 122\penalty0 (1):\penalty0 010404,
+  2019.
+
+\bibitem[Drummond and Ficek(2013)]{squeezing2004pd}
+Peter~D Drummond and Zbigniew Ficek.
+\newblock Quantum squeezing, 2013.
+
+\bibitem[Drummond and Hillery(2014)]{drummond2014quantum}
+Peter~D Drummond and Mark Hillery.
+\newblock \emph{The quantum theory of nonlinear optics}.
+\newblock Cambridge University Press, 2014.
+
+\bibitem[Faccio et~al.(2012)Faccio, Arane, Lamperti, and Leonhardt]{Faccio2012}
+Daniele Faccio, Tal Arane, Marco Lamperti, and Ulf Leonhardt.
+\newblock {Optical black hole lasers}.
+\newblock \emph{Classical and Quantum Gravity}, 29\penalty0 (22):\penalty0
+  224009, 2012.
+
+\bibitem[Franken et~al.(1961)Franken, Peters, and
+  Weinreich]{franken1961generation}
+Alan~E Franken, CW~Peters, and G~Weinreich.
+\newblock Generation of optical harmonics.
+\newblock \emph{Physical Review Letters}, 7\penalty0 (4):\penalty0 118, 1961.
+
+\bibitem[Gallaire and Brun(2017)]{gallaire2017fluid}
+Fran{\c{c}}ois Gallaire and P-T Brun.
+\newblock Fluid dynamic instabilities: theory and application to pattern
+  forming in complex media.
+\newblock \emph{Philosophical Transactions of the Royal Society A:
+  Mathematical, Physical and Engineering Sciences}, 375\penalty0
+  (2093):\penalty0 20160155, 2017.
+
+\bibitem[Gaona-Reyes and Bermudez(2017)]{GaonaReyes2017}
+Jose~Luis Gaona-Reyes and David Bermudez.
+\newblock {The theory of optical black hole lasers}.
+\newblock \emph{Annals of Physics}, 380:\penalty0 41--58, 2017.
+
+\bibitem[Hawking(1974)]{Hawking1974}
+S~W Hawking.
+\newblock {Black hole explosions}.
+\newblock \emph{Nature}, 248\penalty0 (5443):\penalty0 30--31, 1974.
+
+\bibitem[Hawking(1975)]{Hawking1975}
+S~W Hawking.
+\newblock {Particle creation by black holes}.
+\newblock \emph{Communications in Mathematical Physics}, 43\penalty0
+  (3):\penalty0 199--220, 1975.
+
+\bibitem[Jacobson and Volovik(1998)]{jacobson1998event}
+TA~Jacobson and GE~Volovik.
+\newblock Event horizons and ergoregions in 3{H}e.
+\newblock \emph{Physical Review D}, 58\penalty0 (6):\penalty0 064021, 1998.
+
+\bibitem[Jacobson(1996)]{jacobson1996introductory}
+Ted Jacobson.
+\newblock Introductory lectures on black hole thermodynamics.
+\newblock \emph{Given at Utrecht U. in}, 26, 1996.
+
+\bibitem[Jannes et~al.(2011)Jannes, Ma{\"\i}ssa, Philbin, and
+  Rousseaux]{jannes2011hawking}
+Gil Jannes, Philippe Ma{\"\i}ssa, Thomas~G Philbin, and Germain Rousseaux.
+\newblock Hawking radiation and the boomerang behavior of massive modes near a
+  horizon.
+\newblock \emph{Physical Review D}, 83\penalty0 (10):\penalty0 104028, 2011.
+
+\bibitem[Kivshar and Agrawal(2003)]{kivshar2003optical}
+Yuri~S Kivshar and Govind Agrawal.
+\newblock \emph{Optical solitons: from fibers to photonic crystals}.
+\newblock Academic press, New York, 2003.
+
+\bibitem[Koschmieder(1977)]{koschmieder1977instabilities}
+EL~Koschmieder.
+\newblock Instabilities in fluid dynamics.
+\newblock In \emph{Synergetics}, pages 70--78. Springer, Berlin, Heidelberg,
+  1977.
+
+\bibitem[Landau and Lifshitz(1960)]{landau1960elektrodinamika}
+L.D. Landau and E.M. Lifshitz.
+\newblock \emph{Electrodynamics of Continuous Media}.
+\newblock Pergamon, Oxford, 1960.
+
+\bibitem[Landau~L.D.(1980)]{bookLandau}
+Lifshitz~E.M. Landau~L.D.
+\newblock \emph{The classical theory of fields}, volume~2.
+\newblock Butterworth~Heinemann, 4th edition, 1980.
+
+\bibitem[Larr{\'e} et~al.(2012)Larr{\'e}, Recati, Carusotto, and
+  Pavloff]{2012Larre}
+P-{\'E} Larr{\'e}, A~Recati, Iacopo Carusotto, and N~Pavloff.
+\newblock Quantum fluctuations around black hole horizons in {B}ose-{E}instein
+  condensates.
+\newblock \emph{Physical Review A}, 85\penalty0 (1):\penalty0 013621, 2012.
+
+\bibitem[Leonhardt and Philbin(2007)]{Leonhardt2007}
+Ulf Leonhardt and Thomas~G Philbin.
+\newblock {Black hole lasers revisited.}
+\newblock \emph{Lect. Notes Phys.}, 718:\penalty0 229--245, 2007.
+
+\bibitem[Macher and Parentani(2009)]{2009RParentani}
+Jean Macher and Renaud Parentani.
+\newblock Black-hole radiation in {B}ose-{E}instein condensates.
+\newblock \emph{Physical Review A}, 80\penalty0 (4):\penalty0 043601, 2009.
+
+\bibitem[Mukhanov and Winitzki(2007)]{mukhanov2007introduction}
+Viatcheslav Mukhanov and Sergei Winitzki.
+\newblock \emph{Introduction to quantum effects in gravity}.
+\newblock Cambridge University Press, 2007.
+
+\bibitem[Philbin et~al.(2008)Philbin, Kuklewicz, Robertson, Hill, K{\"o}nig,
+  and Leonhardt]{philbin2008fiber}
+Thomas~G Philbin, Chris Kuklewicz, Scott Robertson, Stephen Hill, Friedrich
+  K{\"o}nig, and Ulf Leonhardt.
+\newblock Fiber-optical analog of the event horizon.
+\newblock \emph{Science}, 319\penalty0 (5868):\penalty0 1367--1370, 2008.
+
+\bibitem[Plansinis et~al.(2016)Plansinis, Donaldson, and
+  Agrawal]{Plansinis2016}
+Brent~W Plansinis, William~R Donaldson, and Govind~P Agrawal.
+\newblock {Temporal waveguides for optical pulses}.
+\newblock \emph{Journal of the Optical Society of America B}, 33\penalty0
+  (6):\penalty0 1112--1119, 2016.
+
+\bibitem[Robertson(2011)]{Robertson2011}
+Scott Robertson.
+\newblock \emph{{Hawking radiation in dispersive media }}.
+\newblock PhD thesis, St. Andrews, St. Andrews, 2011.
+
+\bibitem[Steinhauer(2014)]{Steinhauer2014}
+Jeff Steinhauer.
+\newblock {Observation of self-amplifying Hawking radiation in an analogue
+  black-hole laser}.
+\newblock \emph{Nature Physics}, 10\penalty0 (11):\penalty0 864--869, 2014.
+
+\bibitem[Steinhauer and de~Nova(2017)]{steinhauer2017self}
+Jeff Steinhauer and Juan Ram{\'o}n~Mu{\~n}oz de~Nova.
+\newblock Self-amplifying hawking radiation and its background: A numerical
+  study.
+\newblock \emph{Physical Review A}, 95\penalty0 (3):\penalty0 033604, 2017.
+
+\bibitem[Susskind(2006)]{susskind2006paradox}
+Leonard Susskind.
+\newblock The paradox of quantum black holes.
+\newblock \emph{Nature Physics}, 2\penalty0 (10):\penalty0 665, 2006.
+
+\bibitem[Tettamanti et~al.(2016)Tettamanti, Cacciatori, Parola, and
+  Carusotto]{tettamanti2016numerical}
+M~Tettamanti, SL~Cacciatori, A~Parola, and I~Carusotto.
+\newblock Numerical study of a recent black-hole lasing experiment.
+\newblock \emph{EPL (Europhysics Letters)}, 114\penalty0 (6):\penalty0 60011,
+  2016.
+
+\bibitem[Unruh(1981)]{Unruh1981}
+William~G Unruh.
+\newblock {Experimental black-hole evaporation?}
+\newblock \emph{Physical Review Letters}, 46\penalty0 (21):\penalty0
+  1351--1353, 1981.
+
+\bibitem[Volovik(2003)]{volovik2003universe}
+Grigory~E Volovik.
+\newblock \emph{The universe in a helium droplet}, volume 117.
+\newblock Oxford University Press on Demand, Oxford, 2003.
+
+\bibitem[Weiner et~al.(1988)Weiner, Heritage, Hawkins, Thurston, Kirschner,
+  Leaird, and Tomlinson]{weiner1988experimental}
+AM~Weiner, JP~Heritage, RJ~Hawkins, RN~Thurston, EM~Kirschner, DE~Leaird, and
+  WJ~Tomlinson.
+\newblock Experimental observation of the fundamental dark soliton in optical
+  fibers.
+\newblock \emph{Physical {R}eview {L}etters}, 61\penalty0 (21):\penalty0 2445,
+  1988.
+
+\bibitem[Zapata et~al.(2011)Zapata, Albert, Parentani, and
+  Sols]{zapata2011resonant}
+Ivar Zapata, Mathias Albert, Renaud Parentani, and Fernando Sols.
+\newblock Resonant hawking radiation in {B}ose--{E}instein condensates.
+\newblock \emph{New Journal of Physics}, 13\penalty0 (6):\penalty0 063048,
+  2011.
+
+\end{thebibliography}
